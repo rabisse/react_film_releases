@@ -1,10 +1,12 @@
 import './App.css';
+import FilmsBox from './Containers/FilmsBox';
+
 
 function App() {
   return (
-    <div className="App">
-
-    </div>
+    <>
+      <FilmsBox/>
+    </>
   );
 }
 
